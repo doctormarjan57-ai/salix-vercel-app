@@ -1,5 +1,5 @@
 // ہم اپنے پائتھون سرور سے بات کریں گے (اگر آپ نے رینڈر پر لگایا ہے تو وہ لنک یہاں ڈالیں)
-const SERVER_URL = "http://127.0.0.1:5000/api/chat";
+const SERVER_URL = "https://my-project-ochre-three-cybnjcrcl7.vercel.app/api/chat";
 
 // 1. صفحہ تبدیل کرنے کا فنکشن
 function openTool(toolName) {
