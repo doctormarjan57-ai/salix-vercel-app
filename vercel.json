@@ -1,7 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/index.py", "use": "@vercel/python" }
+    { "src": "api/index.py", "use": "@vercel/python" },
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "salix-ai.js", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/api/chat", "dest": "api/index.py" },
